@@ -38,29 +38,22 @@ header div{
 
 div.elements_semplice{
     width: calc(100% / 10);
-    height: calc(100% / 10);
-    border: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 div.elements_normale{
     width: calc(100% / 9);
-    height: calc(100% / 9);
-    border: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 div.elements_difficile{
     width: calc(100% / 7);
-    height: calc(100% / 7);
+}
+
+.my_flex{
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+    aspect-ratio: 1 / 1;
 }
 .numbers{
     display: flex;

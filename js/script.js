@@ -31,7 +31,7 @@ startGameButton.addEventListener('click', function(){
     const mycontainerEl = document.querySelector('#container');
         for(let i = 0; i < difficulty; i++){
             let divElements = document.createElement('div');
-            divElements.classList.add(valueClass);
+            divElements.classList.add(valueClass, 'my_flex');
             divElements.append(i+1);
             mycontainerEl.appendChild(divElements);
             divElements.addEventListener('click', function(){
