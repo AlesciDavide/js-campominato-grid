@@ -6,8 +6,15 @@
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    background-color: #001534;
+    
+}
+header img{
+    width: 30px;
+    padding: 10px 0;
+    margin-bottom: 5px;
 }
 #startGame{
     padding: 3px 10px;
@@ -20,13 +27,31 @@ header{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: #7fffd4;
 
 }
 
-div.elements{
+div.elements_semplice{
     width: calc(100% / 10);
     height: calc(100% / 10);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.elements_normale{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.elements_difficile{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
     border: 2px solid black;
     display: flex;
     align-items: center;
@@ -40,5 +65,5 @@ div.elements{
 }
 
 .asd{
-    background-color: red;
+    background-color: rgb(55, 53, 223);
 }
