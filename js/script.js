@@ -13,12 +13,16 @@ startGameButton.addEventListener('click', function(){
     myMainEl.appendChild(containerEl);
     const mycontainerEl = document.querySelector('#container');
         for(let i = 0; i < 100; i++){
-            const divElements = document.createElement('div');
+            let divElements = document.createElement('div');
             divElements.classList.add('elements');
             divElements.append(i+1);
             mycontainerEl.appendChild(divElements);
+            divElements.addEventListener('click', function(){
+                divElements.classList.add('asd');
+            })
         }
-
-
+    
 })
+
+
 
