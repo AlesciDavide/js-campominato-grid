@@ -3,3 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startGame{
+    padding: 3px 10px;
+}
+
+
+#container{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: aqua;
+
+}
+
+div.elements{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
