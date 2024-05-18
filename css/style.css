@@ -8,24 +8,58 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #001534;
-    
+    background-color: white;
 }
 
-header img{
-    width: 30px;
+header img{   
     padding: 10px 0;
     margin-bottom: 5px;
+    height: 80px;
 }
 
 header div{
     display: flex;
-    color: white;
+    color: black;
+}
+header form > select{
+    cursor: pointer;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    border-style: 2px double black;
+    font-weight: 600;
+    background-image: linear-gradient(
+    rgb(31, 115, 148),
+    rgb(11, 7, 240),
+    rgb(31, 115, 148));
+    color: rgb(255, 255, 255);
+    transition: 400ms;
+}
+header form > label{
+    font-size: 2rem;
 }
 
-#startGame{
-    padding: 0 10px;
+body{
+    background-image: url(../img/bg1.avif);
 }
+
+
+#startGame{
+        cursor: pointer;
+        padding: 15px 40px 15px 40px;
+        border-radius: 10px;
+        border-style: 2px double black;
+        font-weight: 600;
+        background-image: linear-gradient(
+        rgb(31, 148, 31),
+        rgb(0, 255, 0),
+        rgb(31, 148, 31)
+        );
+        color: rgb(0, 0, 0);
+        transition: 400ms;
+        margin-left: 10px;
+}
+
+
 
 #container{
     width: 800px;
@@ -33,7 +67,8 @@ header div{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    background-color: #7fffd4;
+    margin-top: 30px;
+    background-color: rgb(218, 255, 161);
 }
 
 div.elements_semplice{
