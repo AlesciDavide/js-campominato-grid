@@ -11,6 +11,7 @@ header{
     background-color: #001534;
     
 }
+
 header img{
     width: 30px;
     padding: 10px 0;
@@ -21,10 +22,10 @@ header div{
     display: flex;
     color: white;
 }
+
 #startGame{
     padding: 0 10px;
 }
-
 
 #container{
     width: 800px;
@@ -33,7 +34,6 @@ header div{
     flex-wrap: wrap;
     margin: 0 auto;
     background-color: #7fffd4;
-
 }
 
 div.elements_semplice{
@@ -55,6 +55,7 @@ div.elements_difficile{
     justify-content: center;
     aspect-ratio: 1 / 1;
 }
+
 .numbers{
     display: flex;
     justify-content: center;
@@ -62,6 +63,6 @@ div.elements_difficile{
     color: black;
 }
 
-.asd{
+.bgActive{
     background-color: rgb(55, 53, 223);
 }

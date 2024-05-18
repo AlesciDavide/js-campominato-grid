@@ -16,7 +16,6 @@ startGameButton.addEventListener('click', function(){
     }else{
         difficulty = 49;
         valueClass = 'elements_difficile';
-
     }
 
     const checkcontainerEl = document.getElementById('container');
@@ -35,11 +34,10 @@ startGameButton.addEventListener('click', function(){
             divElements.append(i+1);
             mycontainerEl.appendChild(divElements);
             divElements.addEventListener('click', function(){
-                divElements.classList.add('asd');
+                divElements.classList.add('bgActive');
                 console.log(i+1);
             })
         }
-    
 })
 
 
